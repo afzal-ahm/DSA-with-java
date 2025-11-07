@@ -32,9 +32,9 @@ public class Max {
         System.out.print("[ ");
         for(int i = 0; i < size; i++)
         {
-            System.out.print(arr[i] + " ");            
+            System.out.print(arr[i] + ", ");            
         }
-        System.out.println("]");
+        System.out.println("\b\b ]");
         System.out.println("The Maximum number in an araay is: " + max(arr));
         
         sc.close();
