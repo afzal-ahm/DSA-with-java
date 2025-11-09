@@ -49,5 +49,7 @@ public class Min{
         System.out.println("]");
 
         System.out.println("The min number in the matrix is: " + min(arr));
+
+        sc.close();
     }
 }
